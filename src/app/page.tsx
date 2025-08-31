@@ -1,3 +1,4 @@
+import Faq from "./components/faq/Faq";
 import Feedbacks from "./components/feedbacks/Feedbacks";
 import HomePage from "./components/homePage/HomePage";
 import LogoSlider from "./components/logoSlider/LogoSlider";
@@ -14,6 +15,7 @@ export default function Home() {
       <Qualifications />
       <TrainingPrograms />
       <Feedbacks />
+      <Faq />
     </div>
   );
 }
