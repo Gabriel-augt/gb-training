@@ -1,3 +1,4 @@
+import Contact from "./components/contact/Contact";
 import Faq from "./components/faq/Faq";
 import Feedbacks from "./components/feedbacks/Feedbacks";
 import HomePage from "./components/homePage/HomePage";
@@ -16,6 +17,7 @@ export default function Home() {
       <TrainingPrograms />
       <Feedbacks />
       <Faq />
+      <Contact />
     </div>
   );
 }
