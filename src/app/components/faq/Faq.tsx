@@ -8,8 +8,8 @@ export default function Faq() {
     >
       <div className="mx-auto px-5">
         <div className="flex flex-col items-center">
-          <h1 className="font-anton text-6xl mt-3">Perguntas frequentes</h1>
-          <h2 className="mt-5 text-center text-neutral-400 text-2xl font-bold tracking-tight md:text-4xl">
+          <h1 className="font-anton mt-3 tracking-wide text-3xl md:text-5xl sm:text-4xl">Perguntas frequentes</h1>
+          <h2 className="mt-2 text-center text-neutral-400 text-2xl font-bold tracking-tight sm:text-3xl">
             FAQ
           </h2>
         </div>
