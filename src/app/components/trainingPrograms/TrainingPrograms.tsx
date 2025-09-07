@@ -4,7 +4,7 @@ import ProgramCards from "./ProgramCards";
 
 export default function TrainingPrograms () {
     return (
-        <div className="flex flex-col gap-20 items-center justify-center h-max w-full bg-black py-28
+        <div id="services" className="flex flex-col gap-20 items-center justify-center h-max w-full bg-black py-28
         max-[1190px]:h-max max-lg:gap-14 max-lg:py-12">
             <div className="text-center">
                 <h1 className="font-anton text-3xl tracking-wide mb-2 md:text-5xl sm:text-4xl">

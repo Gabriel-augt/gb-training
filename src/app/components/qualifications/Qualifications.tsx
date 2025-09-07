@@ -3,7 +3,7 @@ import QualificationBlocks from './QualificationBlocks'
 
 export default function Qualification() {
     return (
-        <div className="h-max w-full flex justify-center items-center bg-black">
+        <div id="qualification" className="h-max w-full flex justify-center items-center bg-black">
             <section className="flex flex-row mx-6 justify-evenly w-full py-16
             max-xl:flex-col max-xl:gap-8 sm:items-center">
                 <div className="flex flex-col gap-4 w-80 h-max sm:w-[500px]">

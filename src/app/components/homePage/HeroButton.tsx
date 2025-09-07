@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function HeroButton() {
   return (
     <button
@@ -6,7 +8,9 @@ export default function HeroButton() {
       hover:bg-transparent hover:border-white hover:text-white focus:outline-none
       focus-visible:outline-white text-xl focus-visible:ring-white cursor-pointer
       lg:my-8 lg:text-2xl lg:px-6 lg:py-2.5 sm:px-4">
-      Junte-se a nós
+        <Link href="#contact">
+          Junte-se a nós
+        </Link>
     </button>
   );
 }

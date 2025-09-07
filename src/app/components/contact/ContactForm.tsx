@@ -8,7 +8,7 @@ export default function ContactForm() {
         <h1 className="text-xl">Envie uma mensagem</h1>
       </div>
       <form>
-        <div className="w-full space-y-4">
+        <div className="w-full space-y-4 text-lg">
           <div>
             <label className="text-xs text-neutral-400 ">Seu nome</label>
             <input

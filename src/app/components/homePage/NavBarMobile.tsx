@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import MobileNavBarItem from "./MobileNavBarItem";
+import Link from "next/link";
 
 export default function NavBarMobile() {
   const [isOpen, setOpen] = useState(false);
@@ -40,39 +41,39 @@ export default function NavBarMobile() {
         <div className="flex flex-col  items-center justify-center text-2xl font-outfit bg-purple-900/95 w-full h-full">
           <ul className="flex flex-col gap-12 text-left" onClick={() => setOpen(false)}>
                 <MobileNavBarItem>
-                  <a href="#home">
+                  <Link href="#home">
                     Início
-                  </a>
+                  </Link>
                 </MobileNavBarItem>
                 <MobileNavBarItem>
-                  <a href="#about">
+                  <Link href="#about">
                     Sobre
-                  </a>
+                  </Link>
                 </MobileNavBarItem>
                 <MobileNavBarItem>
-                  <a href="#qualification">
+                  <Link href="#qualification">
                     Qualificações
-                  </a>
+                  </Link>
                 </MobileNavBarItem>
                 <MobileNavBarItem>
-                  <a href="#services">
+                  <Link href="#services">
                     Serviços
-                  </a>
+                  </Link>
                 </MobileNavBarItem>
                 <MobileNavBarItem>
-                  <a href="#feedback">
+                  <Link href="#feedback">
                     Feedback
-                  </a>
+                  </Link>
                 </MobileNavBarItem>
                 <MobileNavBarItem>
-                  <a href="#contact">
+                  <Link href="#contact">
                     Contato
-                  </a>
+                  </Link>
                 </MobileNavBarItem>
                 <MobileNavBarItem>
-                  <a href="#faq">
+                  <Link href="#faq">
                     FAQ
-                  </a>
+                  </Link>
                 </MobileNavBarItem>
           </ul>
         </div>

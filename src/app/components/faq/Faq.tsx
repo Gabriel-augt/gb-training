@@ -2,10 +2,9 @@ import QuestionAnswer from "./QuestionAnswer";
 
 export default function Faq() {
   return (
-    <div
+    <div id="faq"
       className="relative w-full h-max bg-black px-6 pb-8 pt-32 shadow-xl
-    ring-1 ring-gray-900/5 sm:mx-auto sm:rounded-lg sm:px-10"
-    >
+      ring-1 ring-gray-900/5 sm:mx-auto sm:rounded-lg sm:px-10">
       <div className="mx-auto px-5">
         <div className="flex flex-col items-center">
           <h1 className="font-anton mt-3 tracking-wide text-3xl md:text-5xl sm:text-4xl">Perguntas frequentes</h1>
