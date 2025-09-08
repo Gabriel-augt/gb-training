@@ -1,9 +1,11 @@
 import Image from "next/image";
-import WhoIsBlocks from './WhoIsBlocks'
+import WhoIsBlocks from "./WhoIsBlocks";
+import {useTranslations} from "next-intl";
 
 export default function WhoIs() {
+    const t = useTranslations('HomePage.anchors');
     return (
-        <div id="about" className="h-max w-full flex justify-center items-center bg-black 2xl:h-[600px]">
+        <div  id={t('aboutAnchor')} className="h-max w-full flex justify-center items-center bg-black 2xl:h-[600px]">
             <section className="flex flex-row mx-6 justify-evenly w-full py-16
             max-xl:flex-col-reverse max-xl:gap-8 sm:items-center">
                 <div className='flex items-center relative w-auto h-auto'>

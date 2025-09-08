@@ -1,0 +1,22 @@
+{
+    "HomePage": {
+        "anchors": {
+            "homeAnchor": "home",
+            "aboutAnchor": "about",
+            "qualificationAnchor": "qualification",
+            "servicesAnchor": "services",
+            "feedbackAnchor": "feedback",
+            "contactAnchor": "contact",
+            "faqAnchor": "faq"
+        },
+        "navBar": {
+            "home": "Home",
+            "about": "About",
+            "qualification": "Qualification",
+            "services": "Services",
+            "feedback": "Feedback",
+            "contact": "Contact",
+            "faq": "FAQ"
+        }
+    }
+}

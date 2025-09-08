@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Outfit, Oxanium, Anton } from "next/font/google";
 import "./globals.css";
+import { NextIntlClientProvider, hasLocale } from "next-intl";
+import { setRequestLocale } from "next-intl/server";
+import { notFound } from "next/navigation";
+import { routing } from "@/i18n/routing";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -25,16 +29,23 @@ export const metadata: Metadata = {
   description: "Personal trainer website",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ locale: string }>;
 }>) {
+  const { locale } = await params;
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+  setRequestLocale(locale);
   return (
-    <html lang="pt-BR">
+    <html lang={locale}>
       <body
         className={`${outfit.variable} ${oxanium.variable} ${anton.variable}`}>
-        {children}
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
   );
