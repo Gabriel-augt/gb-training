@@ -5,8 +5,8 @@ import Footer from "../components/footer/Footer";
 import HomePage from "../components/homePage/HomePage";
 import LogoSlider from "../components/logoSlider/LogoSlider";
 import Qualifications from "../components/qualifications/Qualifications";
-import TrainingPrograms from "../components/trainingPrograms/TrainingPrograms";
-import About from "../components/about/WhoIs";
+import Services from "../components/services/Services";
+import About from "../components/about/About";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <LogoSlider />
       <About />
       <Qualifications />
-      <TrainingPrograms />
+      <Services />
       <Feedbacks />
       <Faq />
       <Contact />

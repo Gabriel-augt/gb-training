@@ -2,6 +2,7 @@
 import { useState } from "react";
 import MobileNavBarItem from "./MobileNavBarItem";
 import Link from "next/link";
+import { useTranslations } from 'next-intl';
 
 export default function NavBarMobile() {
   const [isOpen, setOpen] = useState(false);
@@ -9,6 +10,8 @@ export default function NavBarMobile() {
   const handleClick = () => {
     setOpen(!isOpen);
   };
+
+const t = useTranslations('HomePage');
 
   return (
     <nav>
@@ -41,38 +44,38 @@ export default function NavBarMobile() {
         <div className="flex flex-col  items-center justify-center text-2xl font-outfit bg-purple-900/95 w-full h-full">
           <ul className="flex flex-col gap-12 text-left" onClick={() => setOpen(false)}>
                 <MobileNavBarItem>
-                  <Link href="#home">
-                    Início
+                  <Link href={`#${t('anchors.homeAnchor')}`}>
+                    {t('navBar.home')}
                   </Link>
                 </MobileNavBarItem>
                 <MobileNavBarItem>
-                  <Link href="#about">
-                    Sobre
+                  <Link href={`#${t('anchors.aboutAnchor')}`}>
+                    {t('navBar.about')}
                   </Link>
                 </MobileNavBarItem>
                 <MobileNavBarItem>
-                  <Link href="#qualification">
-                    Qualificações
+                  <Link href={`#${t('anchors.qualificationAnchor')}`}>
+                    {t('navBar.qualification')}
                   </Link>
                 </MobileNavBarItem>
                 <MobileNavBarItem>
-                  <Link href="#services">
-                    Serviços
+                  <Link href={`#${t('anchors.servicesAnchor')}`}>
+                    {t('navBar.services')}
                   </Link>
                 </MobileNavBarItem>
                 <MobileNavBarItem>
-                  <Link href="#feedback">
-                    Feedback
+                  <Link href={`#${t('anchors.feedbackAnchor')}`}>
+                    {t('navBar.feedback')}
                   </Link>
                 </MobileNavBarItem>
                 <MobileNavBarItem>
-                  <Link href="#contact">
-                    Contato
+                  <Link href={`#${t('anchors.contactAnchor')}`}>
+                    {t('navBar.contact')}
                   </Link>
                 </MobileNavBarItem>
                 <MobileNavBarItem>
-                  <Link href="#faq">
-                    FAQ
+                  <Link href={`#${t('anchors.faqAnchor')}`}>
+                    {t('navBar.faq')}
                   </Link>
                 </MobileNavBarItem>
           </ul>

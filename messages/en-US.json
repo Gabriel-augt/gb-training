@@ -16,7 +16,44 @@
             "services": "Services",
             "feedback": "Feedback",
             "contact": "Contact",
-            "faq": "FAQ"
+            "faq": "FAQ",
+            "startButton": "Start"
+        },
+        "hero": {
+            "title": "Turn Challenges into Triumphs!",
+            "subtitle": "More Strength, More Energy, More You!",
+            "joinUsButton": "Join us"
+        }
+    },
+    "About": {
+        "whoIsAnaLin": "Who is Ana Lin?",
+        "descriptionAbout": "As a passionate personal trainer, I believe in empowering individuals to achieve their fitness goals through personalized training and support.",
+        "clientBlock": "Satisfied Customers",
+        "experienceBlock": "Years of Experience",
+        "sportsBlock": "Years in Sports"
+    },
+    "Qualification": {
+        "title": "Qualification",
+        "qualificationDescription": "I am a certified personal trainer with over 10 years of experience, specializing in personal training and nutrition. I'm passionate about helping people transform their lives and strive to create a welcoming environment where everyone can thrive, regardless of their fitness level."
+    },
+    "Services": {
+        "title": "Training Programs",
+        "subtitle": "Choose your program",
+        "monthlySubscription": "Monthly Subscription",
+        "firstService": {
+            "title": "Personal Training",
+            "price": "200$",
+            "description": "Individualized coaching with workouts tailored to your goals."
+        },
+        "secondService": {
+            "title": "Diet",
+            "price": "150$",
+            "description": "Exclusive meal plan to optimize your results."
+        },
+        "MainService": {
+            "title": "Personal Training + Diet",
+            "price": "300$",
+            "description": "Complete combination to transform your body with aligned training and nutrition."
         }
     }
 }

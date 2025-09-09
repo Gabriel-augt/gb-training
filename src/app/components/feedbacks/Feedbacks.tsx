@@ -1,8 +1,10 @@
 import FeedbackCard from "./FeedbackCard";
+import { useTranslations } from "next-intl";
 
 export default function Feedbacks() {
+  const t = useTranslations('HomePage.anchors');
   return (
-    <div id="feedback" className="flex flex-col items-center justify-center gap-20 h-screen w-full bg-black
+    <div id={t('feedbackAnchor')} className="flex flex-col items-center justify-center gap-20 h-screen w-full bg-black
     max-[1280px]:h-max max-lg:gap-14">
       <h1 className="font-anton tracking-wide text-3xl md:text-5xl sm:text-4xl">O que meus clientes dizem</h1>
       <section className="flex flex-row gap-32 max-[1280px]:flex-col  max-[1280px]:gap-20">

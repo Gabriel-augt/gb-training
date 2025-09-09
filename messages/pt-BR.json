@@ -16,7 +16,44 @@
             "services": "Serviços",
             "feedback": "Comentários",
             "contact": "Contato",
-            "faq": "Perguntas frequentes"
+            "faq": "Perguntas frequentes",
+            "startButton": "Começar"
+        },
+        "hero": {
+            "title": "Transforme Desafios em Triunfos!",
+            "subtitle": "Mais Força, Mais Energia, Mais Você!",
+            "joinUsButton": "Junte-se a nós"
+        }
+    },
+    "About": {
+        "whoIsAnaLin": "Quem é Ana Lin?",
+        "descriptionAbout": "Como personal trainer apaixonada, acredito em capacitar indivíduos para atingir seus objetivos de condicionamento físico por meio de treinamento e suporte personalizados.",
+        "clientBlock": "Clientes Satisfeitos",
+        "experienceBlock": "Anos de Experiência",
+        "sportsBlock": "Anos no Esporte"
+    },
+    "Qualification": {
+        "title": "Qualificações",
+        "qualificationDescription": "Sou personal trainer certificado com mais de 10 anos de experiência, especializado em treinamento pessoal e nutrição. Sou apaixonado por ajudar pessoas a transformarem suas vidas e busco criar um ambiente acolhedor onde todos possam prosperar, independentemente do nível de condicionamento físico."
+    },
+    "Services": {
+        "title": "Programas de Treinamento",
+        "subtitle": "Escolha seu programa",
+        "monthlySubscription": "Assinatura Mensal",
+        "firstService": {
+            "title": "Treinamento Pessoal",
+            "price": "200$",
+            "description": "Acompanhamento individualizado com treinos sob medida para seus objetivos."
+        },
+        "secondService": {
+            "title": "Dieta",
+            "price": "150$",
+            "description": "Plano alimentar exclusivo para otimizar seus resultados."
+        },
+        "MainService": {
+            "title": "Treinamento Pessoal + Dieta",
+            "price": "300$",
+            "description": "Combinação completa para transformar seu corpo com treino e nutrição alinhados."
         }
     }
 }

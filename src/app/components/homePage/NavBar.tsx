@@ -1,7 +1,7 @@
 import Link from "next/link";
 import NavBarButton from "./NavBarButton";
 import NavBarItem from "./NavBarItem";
-import {useTranslations} from 'next-intl';
+import { useTranslations } from 'next-intl';
 
 export default function NavBar() {
   const t = useTranslations('HomePage');

@@ -16,7 +16,44 @@
             "services": "Servicios",
             "feedback": "Comentarios",
             "contact": "Contacto",
-            "faq": "Preguntas frecuentes"
+            "faq": "Preguntas frecuentes",
+            "startButton": "Empezar"
+        },
+        "hero": {
+            "title": "¡Convierte los desafíos en triunfos!",
+            "subtitle": "¡Más fuerza, más energía, más tú!",
+            "joinUsButton": "Únase a nosotros"
+        }
+    },
+    "About": {
+        "whoIsAnaLin": "¿Quién es Ana Lin?",
+        "descriptionAbout": "Como entrenadora personal apasionada, creo en capacitar a las personas para que alcancen sus objetivos de acondicionamiento físico mediante un entrenamiento y un apoyo personalizados.",
+        "clientBlock": "Clientes Satisfechos",
+        "experienceBlock": "Años de Experiencia",
+        "sportsBlock": "Años en el Deporte"
+    },
+    "Qualification": {
+        "title": "Cualificaciones",
+        "qualificationDescription": "Soy entrenador personal certificado con más de 10 años de experiencia, especializado en entrenamiento personal y nutrición. Me apasiona ayudar a las personas a transformar sus vidas y busco crear un ambiente acogedor donde todos puedan prosperar, independientemente de su nivel de condición física."
+    },
+    "Services": {
+        "title": "Programas de Formación",
+        "subtitle": "Elija su programa",
+        "monthlySubscription": "Suscripción mensual",
+        "firstService": {
+            "title": "Entrenamiento Personal",
+            "price": "200$",
+            "description": "Acompañamiento individualizado con entrenamientos adaptados a tus objetivos."
+        },
+        "secondService": {
+            "title": "Dieta",
+            "price": "150$",
+            "description": "Plan de alimentación exclusivo para optimizar tus resultados."
+        },
+        "MainService": {
+            "title": "Entrenamiento Personal + Dieta",
+            "price": "300$",
+            "description": "Combinación completa para transformar tu cuerpo con entrenamiento y nutrición alineados"
         }
     }
 }

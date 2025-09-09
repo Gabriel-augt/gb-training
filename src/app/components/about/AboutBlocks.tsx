@@ -1,9 +1,9 @@
-export interface WhoIsBlocksProps {
+export interface AboutBlocksProps {
     num: string;
     text: string;
 }
 
-export default function whoIsBlocks ({ num, text }: WhoIsBlocksProps) {
+export default function AboutBlocks ({ num, text }: AboutBlocksProps) {
   return (
     <div className="flex flex-col items-center justify-center gap-1 w-max h-max p-2
     bg-neutral-900 rounded-2xl hover:shadow hover:shadow-purple-700 sm:w-44

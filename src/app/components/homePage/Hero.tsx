@@ -1,8 +1,10 @@
 import { Facebook, Instagram, Youtube } from "lucide-react";
 import Image from "next/image";
 import HeroButton from "./HeroButton";
+import { useTranslations } from "next-intl";
 
 export default function Hero() {
+  const t = useTranslations('HomePage.hero');
   return (
     <main>
       <div className="relative w-full h-screen bg-gradient-to-r from-black to-black/60">
@@ -10,10 +12,10 @@ export default function Hero() {
         <hr className="absolute bottom-0 w-full h-12 border-0 bg-gradient-to-t from-black to-transparent" />
         <div className="flex flex-col items-center justify-center h-screen w-full">
             <h1 className="font-oxanium font-bold text-xl mx-6 w-max xl:text-6xl lg:text-5xl sm:text-4xl">
-              Transforme Desafios em Triunfos!
+              {t('title')}
             </h1>
             <p className="font-outfit text-md text-neutral-400 sm:text-2xl">
-              Mais Força, Mais Energia, Mais Você!
+              {t('subtitle')}
             </p>
             <HeroButton />
             <div className="inline-flex items-start gap-6">

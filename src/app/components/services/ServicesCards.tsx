@@ -1,4 +1,6 @@
-interface ProgramCardsProps {
+import { useTranslations } from "next-intl";
+
+interface ServicesCardsProps {
     title: string
     price: string
     description: string
@@ -6,7 +8,8 @@ interface ProgramCardsProps {
 
 import CardButton from "./CardButton";
 
-export default function ProgramCards({title, price, description}:ProgramCardsProps) {
+export default function ServicesCards({title, price, description}:ServicesCardsProps) {
+  const t = useTranslations('Services');
   return (
     <div className="w-80 h-[410px] border border-neutral-800 rounded-2xl border-t-0
     hover:scale-105 duration-300">
@@ -18,7 +21,7 @@ export default function ProgramCards({title, price, description}:ProgramCardsPro
             {price}
         </span>
         <span className="font-outfit text-neutral-400">
-            Assinatura Mensal
+            {t('monthlySubscription')}
         </span>
         <p className="font-outfit text-neutral-400 w-60 h-16">
           {description}
