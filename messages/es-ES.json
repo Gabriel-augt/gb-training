@@ -55,5 +55,51 @@
             "price": "300$",
             "description": "Combinación completa para transformar tu cuerpo con entrenamiento y nutrición alineados"
         }
+    },
+    "Feedbacks": {
+        "title": "Lo que dicen mis clientes",
+        "firstFeedback": {
+            "testimonial": "La combinación de entrenamiento y dieta personalizada marcó la diferencia en mi rutina."
+        },
+        "secondFeedback": {
+            "testimonial": "¡Nunca me había sentido tan fuerte! Ana me llevó al límite y me dio el apoyo necesario para tener éxito. ¡Lo recomiendo mucho!"
+        }
+    },
+    "FAQ": {
+        "title": "Preguntas frecuentes",
+        "firstQuestion": {
+            "question": "¿La formación es presencial o en línea?",
+            "answer": "Ofrecemos formación tanto presencial como online, para que puedas elegir la opción que mejor se adapte a tu rutina."
+        },
+        "secondQuestion": {
+            "question": "¿Necesito tener experiencia con los ejercicios para empezar?",
+            "answer": "¡No! Los entrenamientos se adaptan totalmente a tu nivel, ya seas principiante, intermedio o avanzado."
+        },
+        "thirdQuestion": {
+            "question": "¿Necesito equipamiento para entrenar en casa?",
+            "answer": "No necesariamente. Los entrenamientos se pueden hacer con peso corporal o con equipo sencillo. Si tienes mancuernas, bandas de resistencia u otros accesorios, podemos incluirlos en tu rutina."
+        },
+        "fourthQuestion": {
+            "question": "¿Cómo puedo contactar con el equipo de soporte?",
+            "answer": "Si necesita ayuda con nuestra plataforma o tiene alguna otra pregunta, póngase en contacto con nuestro equipo de soporte enviando una solicitud a través de nuestro sitio web o enviando un correo electrónico a support@ourwebsite.com."
+        },
+        "fifthQuestion": {
+            "question": "¿Puedo obtener un reembolso por mi suscripción?",
+            "answer": "Ofrecemos una garantía de reembolso de 30 días para la mayoría de nuestros planes de suscripción. Si no estás satisfecho con tu suscripción durante los primeros 30 días, puedes solicitar un reembolso completo. Los reembolsos para suscripciones activas durante más de 30 días se considerarán caso por caso"
+        }
+    },
+    "Contact": {
+        "title": "Empecemos",
+        "subtitle": "Contacta con nuestro equipo",
+        "form": {
+            "title": "Enviar un mensaje",
+            "nameLabel": "Su nombre",
+            "namePlaceholder": "Ingrese su nombre",
+            "emailLabel": "Su correo electrónico",
+            "emailPlaceholder": "Ingrese su correo electrónico",
+            "messageLabel": "Su mensaje",
+            "messagePlaceholder": "Ingrese su mensaje"
+        },
+        "sendButton": "Enviar"
     }
 }

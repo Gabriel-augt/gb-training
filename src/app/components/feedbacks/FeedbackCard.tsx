@@ -28,7 +28,7 @@ export default function FeedbackCard({ testimonials, author, imageOne, imageTwo 
             </svg>
             <blockquote>
               <p className="text-2xl font-outfit font-medium text-white max-md:text-xl">
-                {testimonials}
+                "{testimonials}"
               </p>
             </blockquote>
             <div className="flex items-center justify-center mt-6 space-x-3">

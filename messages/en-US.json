@@ -55,5 +55,51 @@
             "price": "300$",
             "description": "Complete combination to transform your body with aligned training and nutrition."
         }
+    },
+    "Feedbacks": {
+        "title": "What my clients say",
+        "firstFeedback": {
+            "testimonial": "The combination of training and a personalized diet made all the difference in my routine."
+        },
+        "secondFeedback": {
+            "testimonial": "I've never felt so strong! Ana pushed me to my limits and gave me the support I needed to succeed. I highly recommend her!"
+        }
+    },
+    "FAQ": {
+        "title": "Frequently asked questions",
+        "firstQuestion": {
+            "question": "Is the training done in person or online?",
+            "answer": "We offer both in-person and online training, so you can choose the option that best suits your routine."
+        },
+        "secondQuestion": {
+            "question": "Do I need to have experience with exercise to get started?",
+            "answer": "No! The workouts are fully adapted to your level, whether you're a beginner, intermediate, or advanced."
+        },
+        "thirdQuestion": {
+            "question": "Do I need equipment to train at home?",
+            "answer": "Not necessarily. Workouts can be done using your body weight or simple equipment. If you have dumbbells, resistance bands, or other accessories, we can include them in your routine."
+        },
+        "fourthQuestion": {
+            "question": "How do I contact support?",
+            "answer": "If you need help with our platform or have any other questions, please contact the company's support team by submitting a support request through the website or sending an email to support@ourwebsite.com."
+        },
+        "fifthQuestion": {
+            "question": "Can I get a refund for my subscription?",
+            "answer": "We offer a 30-day money-back guarantee for most of our subscription plans. If you are not satisfied with your subscription within the first 30 days, you can request a full refund. Refunds for subscriptions active for more than 30 days may be considered on a case-by-case basis."
+        }
+    },
+    "Contact": {
+        "title": "Let's Get Started",
+        "subtitle": "Contact our team",
+        "form": {
+            "title": "Send a message",
+            "nameLabel": "Your name",
+            "namePlaceholder": "Enter your name",
+            "emailLabel": "Your e-mail",
+            "emailPlaceholder": "Enter your e-mail",
+            "messageLabel": "Your message",
+            "messagePlaceholder": "Enter your message"
+        },
+        "sendButton": "Send"
     }
 }
