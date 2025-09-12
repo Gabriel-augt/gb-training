@@ -5,7 +5,7 @@ export default function Contact() {
   const t = useTranslations('HomePage.anchors');
   return (
     <div id={t('contactAnchor')} className="bg-black">
-      <section className="flex items-center justify-center w-full h-[120vh] font-outfit">
+      <section className="flex items-center justify-center w-full h-full font-outfit pt-20 pb-28">
         <ContactContent />
       </section>
     </div>

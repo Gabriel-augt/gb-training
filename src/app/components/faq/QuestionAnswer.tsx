@@ -5,7 +5,10 @@ interface QuestionAnswerProps {
 
 export default function QuestionAnswer( {question, answer}: QuestionAnswerProps ) {
   return (
-      <div className="py-5">
+      <div className="py-5"
+      data-aos="fade-left"
+      data-aos-easing="linear"
+      data-aos-anchor-placement="top-bottom">
         <details className="group">
           <summary className="flex cursor-pointer list-none items-center justify-between font-medium">
             <span className="font-outfit text-2xl">

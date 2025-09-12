@@ -5,6 +5,7 @@ import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
+import AOSProvider from "@/hooks/AOSProvider";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -45,7 +46,10 @@ export default async function RootLayout({
     <html lang={locale}>
       <body
         className={`${outfit.variable} ${oxanium.variable} ${anton.variable}`}>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          {children}
+          <AOSProvider />
+        </NextIntlClientProvider>
       </body>
     </html>
   );

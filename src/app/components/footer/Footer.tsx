@@ -7,9 +7,12 @@ export default function Footer() {
     <footer>
       <div
         className="flex flex-col items-center justify-center gap-28 h-max py-12 bg-black border-y border-y-zinc-900
-      lg:flex-row lg:h-56 lg:justify-around lg:items-center lg:gap-0"
+      overflow-hidden lg:flex-row lg:h-56 lg:justify-around lg:items-center lg:gap-0"
       >
-        <div className="flex flex-col gap-4 w-max">
+        <div className="flex flex-col gap-4 w-max"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        data-aos-anchor-placement="top-bottom">
           <span className="font-oxanium text-2xl">GB Training</span>
           <div className="inline-flex gap-5">
             <Youtube
@@ -29,7 +32,10 @@ export default function Footer() {
             />
           </div>
         </div>
-        <div className="flex flex-col gap-5 w-max">
+        <div className="flex flex-col gap-5 w-max"
+        data-aos="zoom-in"
+        data-aos-duration="1500"
+        data-aos-anchor-placement="top-bottom">
           <div className="inline-flex gap-2 items-center">
             <Mail
               className="transition hover:scale-110 hover:cursor-pointer"
@@ -55,7 +61,10 @@ export default function Footer() {
             <span className="font-outfit">99 9999-9999</span>
           </div>
         </div>
-        <div className="flex flex-col gap-5 w-max">
+        <div className="flex flex-col gap-5 w-max"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+        data-aos-anchor-placement="top-bottom">
           <div className="text-sm text-center text-gray-500 w-[200px]">
             <Link href={"https://linktr.ee/gabriel_augt"} target="_blank">
               <div className="relative h-40">

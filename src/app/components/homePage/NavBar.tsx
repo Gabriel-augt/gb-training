@@ -8,9 +8,11 @@ export default function NavBar() {
   return (
     <header
       className="flex flex-row justify-center items-center fixed w-full z-10 font-Outfit
-    invisible lg:visible">
-      <nav className="flex flex-row justify-around items-center w-full backdrop-blur-3xl py-2">
-        <span className="font-oxanium text-2xl">
+      invisible lg:visible">
+      <nav className="flex flex-row justify-around items-center w-full backdrop-blur-3xl py-2"
+      data-aos="fade-down"
+      data-aos-delay="400">
+        <span className="font-oxanium text-2xl max-[1170px]:hidden">
           <a href={`#${t('anchors.homeAnchor')}`}>
             GB Training
           </a>

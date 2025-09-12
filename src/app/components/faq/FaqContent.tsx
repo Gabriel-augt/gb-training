@@ -4,12 +4,15 @@ import { useTranslations } from "next-intl";
 export default function faqContent() {
   const t = useTranslations('FAQ');
   return (
-    <div className="mx-auto px-5">
-      <div className="flex flex-col items-center">
-        <h1 className="font-anton mt-3 tracking-wide text-3xl md:text-5xl sm:text-4xl">
+    <div className="mx-auto px-5 overflow-x-hidden">
+      <div className="flex flex-col items-center mt-20 text-center"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-anchor-placement="top-bottom">
+        <h1 className="font-anton tracking-wide text-3xl md:text-5xl sm:text-4xl">
           {t('title')}
         </h1>
-        <h2 className="mt-2 text-center text-neutral-400 text-2xl font-bold tracking-tight sm:text-3xl">
+        <h2 className="mt-2 text-neutral-400 text-2xl font-bold tracking-tight sm:text-3xl">
           FAQ
         </h2>
       </div>

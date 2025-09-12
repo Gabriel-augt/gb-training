@@ -15,7 +15,9 @@ const t = useTranslations('HomePage');
 
   return (
     <nav>
-      <div className="fixed left-1/2 -translate-x-1/2 top-1 flex items-center z-50 bg-transparent h-16 lg:hidden">
+      <div className="fixed left-1/2 -translate-x-1/2 top-1 flex items-center z-50 bg-transparent h-16 lg:hidden"
+      data-aos="fade-down"
+      data-aos-delay="400">
         <button
           className="relative group p-2 backdrop-blur-2xl rounded-full"
           onClick={handleClick}>

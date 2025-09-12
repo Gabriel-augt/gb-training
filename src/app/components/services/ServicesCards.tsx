@@ -12,11 +12,14 @@ export default function ServicesCards({title, price, description}:ServicesCardsP
   const t = useTranslations('Services');
   return (
     <div className="w-80 h-[410px] border border-neutral-800 rounded-2xl border-t-0
-    hover:scale-105 duration-300">
+    hover:scale-105 duration-300 max-[400px]:w-full"
+    data-aos="flip-up"
+    data-aos-duration="1500"
+    data-aos-anchor-placement="top-bottom">
       <div className="flex flex-col justify-center items-center text-center h-full w-full space-y-5">
-        <h3 className="font-outfit text-2xl">
+        <h4 className="font-outfit text-2xl">
             {title}
-        </h3>
+        </h4>
         <span className="font-anton text-[80px]">
             {price}
         </span>

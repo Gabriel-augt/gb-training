@@ -7,14 +7,18 @@ export default function ContactContent() {
   return (
     <div className="text-center space-y-2 w-[1000px] mx-6
     max-md:space-y-6 sm:md:text-5xl sm:text-3xl">
+      <div className="text-center" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-anchor-placement="top-bottom">
       <h1 className="font-anton tracking-wide text-3xl mb-0
       md:mb-3 md:text-5xl sm:text-4xl">
         {t('title')}
       </h1>
-      <p className="text-neutral-400 text-2xl tracking-tight mb-10
+      <h2 className="text-neutral-400 text-2xl tracking-tight mb-10
       md:text-3xl md:mb-12 sm:text-3xl">
         {t('subtitle')}
-      </p>
+      </h2>
+      </div>
       <ContactForm />
       <ContactButton />
     </div>

@@ -4,7 +4,10 @@ import { useTranslations } from "next-intl";
 export default function QualificationContent() {
   const t = useTranslations('Qualification');
   return (
-    <div className="flex flex-col gap-4 w-80 h-max sm:w-[500px]">
+    <div className="flex flex-col gap-4 w-80 h-max sm:w-[500px]"
+    data-aos="fade-right"
+    data-aos-duration="1500"
+    data-aos-anchor-placement="top-bottom">
       <h1 className="font-anton text-5xl uppercase tracking-wide max-sm:text-4xl">
         {t('title')}
       </h1>

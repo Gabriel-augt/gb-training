@@ -4,15 +4,18 @@ import { useTranslations } from "next-intl";
 export default function ContactForm() {
   const t = useTranslations('Contact');
   return (
-    <div className="text-left p-10 border rounded-lg overflow-hidden space-y-6">
+    <div className="text-left p-10 border rounded-lg overflow-hidden space-y-6"
+    data-aos="zoom-in"
+    data-aos-duration="1500"
+    data-aos-anchor-placement="top-bottom">
       <div className="inline-flex gap-4">
         <MessageSquare />
-        <h1 className="text-xl">
+        <h3 className="text-xl">
           {t('form.title')}
-        </h1>
+        </h3>
       </div>
       <form>
-        <div className="w-full space-y-4 text-lg">
+        <div className="w-full space-y-4 text-md sm:text-lg">
           <div>
             <label className="text-xs text-neutral-400 ">
               {t('form.nameLabel')}

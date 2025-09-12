@@ -11,11 +11,14 @@ export default function MainServiceCard({title, price, description}:MainServiceC
   const t = useTranslations('Services');
   return (
     <div className="w-[360px] h-[450px] border border-purple-800 rounded-2xl border-t-0
-    hover:scale-105 duration-300">
+    hover:scale-105 duration-300 max-[400px]:w-full"
+    data-aos="flip-up"
+    data-aos-duration="1500"
+    data-aos-anchor-placement="top-bottom">
       <div className="flex flex-col justify-center items-center text-center h-full w-full space-y-5">
-        <h2 className="font-outfit text-2xl">
+        <h3 className="font-outfit text-2xl px-4">
             {title}
-        </h2>
+        </h3>
         <span className="font-anton text-[80px] text-purple-800">
             {price}
         </span>

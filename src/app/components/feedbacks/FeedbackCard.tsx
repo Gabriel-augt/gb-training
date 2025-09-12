@@ -9,8 +9,11 @@ import Image from "next/image";
 
 export default function FeedbackCard({ testimonials, author, imageOne, imageTwo }: FeedbackCardProps) {
   return (
-    <section className="flex items-center justify-center gap-11 w-full h-full">
-      <div className="flex flex-col">
+    <section className="flex items-center justify-center gap-11 w-full h-full"
+    data-aos="zoom-in"
+    data-aos-duration="1500"
+    data-aos-anchor-placement="top-bottom">
+      <div className="flex flex-col max-md:px-6">
         <div
           className="flex flex-col items-center gap-6 text-center justify-center w-[550px]
           h-max rounded-t-lg rounded-b-3xl border border-purple-800 rounded-2xl border-x-0
