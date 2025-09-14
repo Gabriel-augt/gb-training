@@ -28,6 +28,9 @@ const anton = Anton({
 export const metadata: Metadata = {
   title: "GB Training",
   description: "Personal trainer website",
+  icons: {
+    icon: "/gb.png",
+  },
 };
 
 export default async function RootLayout({
