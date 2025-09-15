@@ -1,4 +1,4 @@
-# 🏋️‍♂️ GB  Trainig
+# 🏋️‍♂️ GB  Training
 
 [🇧🇷 Português](#português) | [🇺🇸 English](#english) | [🇪🇸 Español](#español)
 
